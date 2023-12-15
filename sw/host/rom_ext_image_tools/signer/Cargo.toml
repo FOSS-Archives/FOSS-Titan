@@ -23,7 +23,7 @@ anyhow = "1.0.40"
 object = "0.25.3"
 rom_ext_image = { path = "image" }
 thiserror = "1.0.24"
-zerocopy = "0.5.0"
+zerocopy = "0.5.2"
 
 # We depend on mundane, but `cargo raze` can't auto generate bazel rules for it.
 # In order to not break the current meson-based build system, we'll leave
